@@ -1,62 +1,52 @@
-/* Navbar.css */
-
 .navbar {
-    background-color: #333; /* Dark background color */
-    padding: 10px 20px; /* Padding for spacing */
-    display: flex;
-    justify-content: flex-end; /* Align all items to the right */
-    align-items: center;
-    position: sticky; /* Sticks to the top when scrolling */
-    top: 0;
-    z-index: 1000;
-  }
-  
-  .nav-menu {
-    list-style: none; /* Remove bullets from list */
-    display: flex;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .nav-menu li {
-    margin: 0 40px; /* Space between menu items */
-    position: relative;
-  }
-  
-  .nav-menu a {
-    color: white; /* White text */
-    text-decoration: none; /* Remove underline */
-    font-size: 18px; /* Font size */
-    font-weight: 500; /* Slightly bold */
-    transition: color 0.3s ease; /* Smooth color transition */
-  }
-  
-  .nav-menu a:hover {
-    color: #00bcd4; /* Highlight color on hover */
-  }
-  
-  .nav-menu li hr {
-    margin: 0;
-    border: none;
-    height: 2px;
-    width: 100%;
-    background-color: #00bcd4; /* Highlight color */
-    position: absolute;
-    bottom: -5px; /* Position underline slightly below the text */
-    left: 0;
-    animation: grow 0.3s ease-in-out;
-  }
-  
-  @keyframes grow {
-    from {
-      width: 0;
-    }
-    to {
-      width: 100%;
-    }
-  }
-  
-  .navbar .nav-menu li hr {
-    display: block; /* Show the underline when active */
-  }
-  
+  background-color: white; 
+  padding: 10px 20px; 
+  display: flex;
+  justify-content: flex-end; 
+  align-items: center;
+  position: sticky; 
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.nav-menu {
+  list-style: none; 
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-menu li {
+  margin: 0 40px; 
+  position: relative;
+}
+
+.nav-menu a {
+  color: black; 
+  text-decoration: none; 
+  font-size: 20px; 
+  font-weight: 600; 
+  font-family: 'Inter','Arial', sans-serif; 
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-menu a:hover {
+  color: #0077b6;
+  transform: scale(1.05); 
+}
+
+.nav-menu li hr {
+  margin: 0;
+  border: none;
+  height: 2px;
+  width: 100%;
+  background-color: #0077b6; 
+  position: absolute;
+  bottom: -5px; 
+  left: 0;
+  animation: grow 0.3s ease-in-out;
+}
+
+
+

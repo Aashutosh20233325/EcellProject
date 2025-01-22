@@ -17,7 +17,7 @@ const Body = () => {
         setTimeout(() => {
           updatedColors[clickedIndex] = '#003B71'; 
           setGridColors([...updatedColors]); 
-        }, i * 500); 
+        }, i * 400); 
       });
       setGridColors(updatedColors);
     } else {

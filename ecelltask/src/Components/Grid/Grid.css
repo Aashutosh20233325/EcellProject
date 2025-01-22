@@ -8,8 +8,8 @@
 }
 
 .section {
-  width: 150px;
-  height: 150px;
+  width: 300px;
+  height: 300px;
   border-radius: 10px;
   border: 1px solid black; /* Border around the section */
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Shadow around the border */
@@ -32,7 +32,7 @@
 
 .logo {
   width: 100%;
-  max-width: 120px;
+  max-width: 290px;
   height: auto;
 }
 
@@ -45,8 +45,8 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 5px;
-  width: 100%;
-  height: 100%;
+  width: 80%;
+  height: 80%;
 }
 
 .grid-square {
