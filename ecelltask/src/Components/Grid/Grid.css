@@ -61,3 +61,39 @@
 .grid-square:hover {
   filter: brightness(0.9);
 }
+
+@media(max-width: 900px){
+  .body-content {
+    display: flex;          /* Enables flexbox */
+    flex-wrap: wrap; /* Stacks items vertically */
+    justify-content: center; /* Centers items vertically (optional) */
+    align-items: center;
+  }
+  .gradient-section {
+      width: 600px;
+      height: 300px;
+  }
+  .logo-section, .grid-section {
+    width: 300px;
+    height: 300px;
+}
+}
+@media(max-width: 600px){
+  .body-content {
+    display: flex;          /* Enables flexbox */
+    flex-direction: column; /* Stacks items vertically */
+    justify-content: center; /* Centers items vertically (optional) */
+    align-items: center;    /* Centers items horizontally (optional) */
+  }
+  .section {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    border: 1px solid black; /* Border around the section */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Shadow around the border */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+}
