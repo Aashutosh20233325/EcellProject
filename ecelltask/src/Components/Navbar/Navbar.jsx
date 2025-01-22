@@ -11,7 +11,7 @@ const Navbar = () => {
        <ul ref={menuRef} className="nav-menu">
             <li onClick={()=>{setmenu("home")}}><Link style={{textDecoration:'none'}}to='/home'>Home</Link>{menu==="home"?<hr/>:<></>}</li>
             <li onClick={()=>{setmenu("grid")}}><Link style={{textDecoration:'none'}}to='/'>Grid</Link>{menu==="grid"?<hr/>:<></>}</li>
-            <li onClick={()=>{setmenu("linkdin")}}><Link style={{textDecoration:'none'}}to='/Linkdin'>Linkdin</Link>{menu==="linkdin"?<hr/>:<></>}</li>
+            <li onClick={()=>{setmenu("linkdin")}}><Link style={{textDecoration:'none'}}to='/linkdin'>Linkdin</Link>{menu==="linkdin"?<hr/>:<></>}</li>
 
         </ul>
     </div>
