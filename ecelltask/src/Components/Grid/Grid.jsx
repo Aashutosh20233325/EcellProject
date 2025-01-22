@@ -1,11 +1,33 @@
-import React from 'react'
+import React, { useState } from "react";
+import "./Grid.css";
+import logo from '../Assets/ecelllogo.png'
+const Body = () => {
+  
 
-const Grid = () => {
   return (
-    <div>
+    <div className="body-content">
       
-    </div>
-  )
-}
+      <div className="section gradient-section">
+        
+      </div>
 
-export default Grid
+     
+      <div className="section logo-section">
+        <img
+          src={logo} 
+          alt="E-Cell Logo"
+          className="logo"
+        />
+      </div>
+
+     
+      <div className="section grid-section">
+        <div className="grid-container">
+          
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Body;
