@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4dd0e671.css",
+    "main.js": "/static/js/main.be973c4d.js",
+    "static/media/profile_photo.jpeg": "/static/media/profile_photo.e9b88d653e98d577499e.jpeg",
+    "static/media/avtar.png": "/static/media/avtar.501f1dee453f4d0505de.png",
+    "static/media/ecelllogo.png": "/static/media/ecelllogo.58682d7ea00fc0caeaae.png",
+    "index.html": "/index.html",
+    "main.4dd0e671.css.map": "/static/css/main.4dd0e671.css.map",
+    "main.be973c4d.js.map": "/static/js/main.be973c4d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4dd0e671.css",
+    "static/js/main.be973c4d.js"
+  ]
+}
